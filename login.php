@@ -64,7 +64,7 @@ if($_SERVER['REQUEST_METHOD']=='POST'){
     ?>
     <h1 class="text-center my-5">Login to my page</h1>
     <div class="container my-5">
-        <form method="POST" action="signup.php">
+        <form method="POST" action="login.php">
             <div class="mb-3">
                 <label class="form-label">UserName</label>
                 <input type="text" class="form-control" name="username" placeholder="Enter your username">
